@@ -4,6 +4,7 @@
 - **Name:** Hemon Gebremariam
 - **Institution:** WSB Merito University
 - **Project:** Quiz Application
+- **Repository:** [GitHub - Quiz Challenge Application](https://github.com/Hamona2323/PHP-Quiz-App.git)
 
 ## Project Overview
 Quiz Challenge is an interactive web-based quiz application developed using PHP, JavaScript, and modern web technologies. The application offers an engaging platform for users to test their knowledge across multiple categories including Science, History, and Technology.
@@ -18,6 +19,12 @@ Quiz Challenge is an interactive web-based quiz application developed using PHP,
 - 🔄 Category-based filtering
 - 🌈 Beautiful UI with animations
 
+## Technologies Used
+- PHP (59.4%)
+- JavaScript (13.5%)
+- CSS (12.7%)
+- MySQL
+
 ## Deployment Instructions
 
 ### Step 1: Environment Setup
@@ -27,31 +34,31 @@ Quiz Challenge is an interactive web-based quiz application developed using PHP,
 4. Verify services are running (green indicators in XAMPP Control Panel)
 
 ### Step 2: Project Deployment
-1. Navigate to XAMPP's root directory:
+1. Clone the repository or download ZIP:
+   ```
+   git clone https://github.com/Hamona2323/PHP-Quiz-App.git
+   ```
+   Or extract the ZIP file to:
    ```
    C:\xampp\htdocs\
    ```
-2. Extract the submitted ZIP file 'PHP-Quiz-App.zip' here
-3. Verify folder structure matches:
-   ```
-   ## Project Structure
-```
-PHP-Quiz-App/
-├── assets/
-│   ├── css/
-│   │   └── styles.css
-│   └── js/
-│       ├── leaderboard.js
-│       └── quiz.js
-├── database/
-│   └── quiz_db.sql
-├── index.php
-├── quiz.php
-├── results.php
-├── leaderboard.php
-└── README.md
-```
 
+2. Verify folder structure matches:
+   ```
+   PHP-Quiz-App/
+   ├── assets/
+   │   ├── css/
+   │   │   └── styles.css
+   │   └── js/
+   │       ├── leaderboard.js
+   │       └── quiz.js
+   ├── database/
+   │   └── quiz_db.sql
+   ├── index.php
+   ├── quiz.php
+   ├── results.php
+   ├── leaderboard.php
+   └── README.md
    ```
 
 ### Step 3: Database Setup
@@ -94,9 +101,6 @@ PHP-Quiz-App/
 - Verify sorting works
 - Test category filters
 - Check top 3 highlighting
-
-
-```
 
 ## Technical Implementation
 
